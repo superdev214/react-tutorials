@@ -31,8 +31,8 @@ const TodoItem = (props) => {
     if (event.key === "Enter") {
       setEditing(false);
     }
- 
   };
+  
   return (
     <li className={styles.item}>
       <div onDoubleClick={ handleEditing} style={viewMode}>
