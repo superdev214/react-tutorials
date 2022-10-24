@@ -9,6 +9,7 @@ const TodoList = (props) => {
             key = {todo.id} 
             handleChangeTodoCompleted = {props.handleChangeTodoCompleted}
             delTodoEvent = {props.delTodoListener}
+            setUpdate = {props.setUpdate}
             />
       ))}
     </ul>
